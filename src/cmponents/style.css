@@ -1,0 +1,118 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid rgb(199, 190, 190);
+  }
+  .container h1 {
+    margin-top: 20px;
+  }
+  .inputDiv {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 246, 230);
+  }
+  .input {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(202, 246, 230);
+    padding: 10px;
+  }
+  .button {
+    background-color: rgb(28, 192, 192);
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+  }
+  .list {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .wrapper:hover {
+    background-color: lightblue;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .lis {
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  
+  .trash:hover {
+    background-color: rgb(145, 195, 238);
+  }
+  .edit:hover {
+    background-color: rgb(145, 195, 238);
+  }
+  .doneBtn:hover {
+    background-color: rgb(145, 195, 238);
+  }
+  .trash {
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+  }
+  .edit {
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+  }
+  .doneBtn {
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+  }
+  
+  .deleteButton {
+    border: none;
+    margin-bottom: 50px;
+    color: red;
+    background-color: white;
+    font-size: 16px;
+  }
+  .crossLine {
+    text-decoration: line-through;
+    text-decoration-color: rgb(218, 7, 7);
+  }
+  
